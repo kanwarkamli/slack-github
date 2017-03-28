@@ -9,8 +9,8 @@ class gitHubSlack {
 	public $username = 'slack-username';
 	public $icon = 'picture-url';
 	
-	protected $github_token = '781e84d2f179cdb14b00da29656b0dcd56c829a1';
-	protected $webhook_url	= 'https://hooks.slack.com/services/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';
+	protected $github_token = 'github-token';
+	protected $webhook_url	= 'webhook-url';
 	
 	private function saveRepoId($data) {
 		$handle = fopen($this->filename, 'w');
